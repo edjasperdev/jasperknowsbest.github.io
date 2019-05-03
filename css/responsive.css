@@ -1,0 +1,143 @@
+
+/* Desktop Layout */
+@media only screen and (max-width:1199px) {
+.services .col-md-4 {
+	max-height: 360px;
+	min-height: 360px
+}
+}
+
+/* Tablet Layout */
+@media only screen and (max-width:991px) {
+.logo-holder {
+	text-align: center
+}
+.nav {
+	margin: 0
+}
+.sticky-menu .navbar-nav li a {
+	font-size: 17px;
+}
+.services .col-md-4 {
+	border: 1px solid #e2e2e2 !important
+}
+.sticky-menu .col-md-9 {
+	margin-left: -11px;
+}
+}
+
+/* Mobile Layout */
+@media only screen and (max-width:767px) {
+.sticky-menu .col-md-9 {
+	margin-left: 0;
+}
+.custom-menu .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.custom-menu .navbar-toggle {
+	margin-right: 0px;
+}
+.navbar-fixed-bottom .navbar-collapse, .custom-menu .navbar-fixed-top .navbar-collapse {
+	background: #555;
+}
+.custom-menu .navbar {
+	min-height: 0px;
+	text-align: center;
+}
+.custom-menu .navbar-toggle {
+	width: 100%;
+	display: block;
+	float: none;
+}
+.custom-menu .icon-text-bar {
+	color: #fff;
+	text-align: right !important;
+	float: right;
+	text-transform: uppercase;
+}
+.custom-menu .navbar-header {
+	background: #000;
+}
+.sticky-menu {
+	background: none;
+}
+.sticky-menu .col-md-3 {
+	display: none;
+}
+.sticky-menu .navbar {
+	margin: 0;
+	padding: 0;
+}
+.top-header .col-md-9 {
+	padding: 0;
+}
+.custom-menu .navbar-toggle {
+	padding: 10px 30px;
+}
+.custom-menu .nav > li > a {
+	text-align: center;
+}
+.custom-menu .navbar-fixed-bottom .navbar-collapse, .custom-menu .navbar-fixed-top .navbar-collapse {
+	background: #333;
+}
+.custom-menu .navbar-nav li a {
+	padding: 22px 15px !important
+}
+.custom-menu .navbar-nav {
+	margin: 0;
+	display: flex;
+    flex-direction: column;
+}
+.custom-menu .navbar-nav li {
+	float: none;
+	display: block;
+}
+.navbar {
+	margin-top: 10px;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+	max-height: 420px;
+}
+.top-header .navbar-collapse {
+	background: #333;
+}
+.person-introduction {
+	text-align: center;
+}
+.services .col-md-4 {
+	max-height: 100%;
+	min-height: 100%;
+	padding-top: 40px;
+	padding-bottom: 35px
+}
+.work-controls ul li {
+	padding: 10px;
+	font-size: 15px;
+}
+.contact-form .form .col-xs-12 {
+	margin: 5px 0
+}
+.contact-form .form .form-group {
+	margin-bottom: 0
+}
+}
+
+/* Small Mobile Layout */
+@media only screen and (max-width:480px) {
+.shortinfo-slide {
+	top: 45%;
+}
+.shortinfo-slide h1 {
+	line-height: 50px;
+}
+.shortinfo-slide h1 a {
+	font-size: 40px;
+}
+header {
+	padding-bottom: 0px;
+}
+.work-controls ul li {
+	display: block;
+	font-size: 17px;
+}
+}
