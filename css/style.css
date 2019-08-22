@@ -224,12 +224,18 @@ header .container {
 	4. Nav Section
 ===============================*/
 
+.navbar-fixed-top .navbar-nav li a {
+  color: #C71585;
+  font-size: 17px;
+}
+
 .sticky-menu {
   /* background: #002849; */
   background: #C71585;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
+
 }
 
 .custom-menu {
@@ -259,7 +265,7 @@ header .container {
   display: inline-block;
 }
 
-.navbar-nav li a {
+.sticky-menu .navbar-nav li a {
   font-size: 17px;
   /* padding: 0 25px; */
   color: #fff;
